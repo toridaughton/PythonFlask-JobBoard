@@ -1,6 +1,4 @@
 {% extends "layout.html" %}
-
-<!-- templates/index.html -->
 {% block content %}
   <div class="columns">
     <div class="column">
@@ -9,5 +7,5 @@
     <div class="column is-one-fifth">
     </div>
   </div>
-  {% macro show_jobs(jobs) %}
+  {{ show_jobs(jobs) }}
 {% endblock %}
