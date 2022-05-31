@@ -11,6 +11,7 @@
     <div class="container top">
       <div class="content">
         {% block content %}
+        {% from '_macros.html' import show_job, show_jobs with context %}
         {% endblock %}
       </div>
     </div>
